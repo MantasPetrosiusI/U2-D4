@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background-color: white;;
+}
+.topContainer{
+    display:flex;
+    height: 6vh;
+}
+nav{
+    display:flex;
+    align-items: center;
+    margin: 15px;
+    flex-grow: 1;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+}
+nav>.browse, nav>.landings, nav>.pages, nav>.accounts{
+    font-size: 20px;
+    padding-left: 15px;
+}
+.personal{
+
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.circleBorder{
+    background-color:  #f5f4f8;
+    width: 3vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    overflow: hidden;
+}
+.notif{
+    display: flex;
+    width: 3vw;
+    height: 3vh;
+}
+.circleBorder>.notif>svg{
+    width: 3vw;
+    height: 3vh;
+    
+}
+
+div.avatar>img{
+    width: 3vw;
+    aspect-ratio: 1;
+}
+/*   HERO  */
+.hero{
+    background-color: #7550fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftSide>h1{
+    color:white;
+    font-size: 34px;
+}
+.leftSide>p{
+    color: #bca8ff;
+    font-size: 20px;
+    width: 500px;
+    text-overflow: ellipsis;
+}
+.buttons>button{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 8vh;
+}
+button{
+    background-color: #fff;
+    border-radius: 11px;
+    padding: 20px 45px;
+    color: black;
+    font-size: 13px;
+    font-weight: 550;
+}
+button:hover{
+    background-color:#15d798;
+    color: white;
+}
+
+.rightSide{
+    display:flex;
+}
+
+.bar{
+    display:flex;
+    height: 8vh;
+    padding-top: 8px;
+    justify-content: center;
+}
+
+.circleBorder2{
+    background-color: #ffeeda;
+    width: 5vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    overflow: hidden;
+}
+
+.cardContainer{
+    display: flex;
+    background-color: #ececf4;
+}
+.cards{
+    display: flex;
+    margin: 10px;
+}
+.card{
+    background-color: white;
+    margin: 5px;
+    border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+    overflow: hidden;
+}
